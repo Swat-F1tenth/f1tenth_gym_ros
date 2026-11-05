@@ -1,0 +1,17 @@
+# the real car's address and login. NEVER commit this, the repo is public.
+car.env
+
+# build artifacts and caches
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+ws/build/
+ws/install/
+ws/log/
+
+# cloned for you by `rr setup`, not part of this toolkit
+f1tenth_gym/
+ws/src/f1tenth_gym_ros/
+tracks/src/
+tracks/real_src/
